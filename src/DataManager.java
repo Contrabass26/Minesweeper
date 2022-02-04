@@ -5,7 +5,7 @@ import java.util.Random;
 public class DataManager {
 
     public static final int BOARD_SIZE = 25;
-    public static final double MINES_PROP = 0.2;
+    public static final double MINES_PROP = 0.1;
 
     public static int[][] board = new int[BOARD_SIZE][BOARD_SIZE];
     public static boolean[][] revealed = new boolean[BOARD_SIZE][BOARD_SIZE];
